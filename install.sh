@@ -10,6 +10,7 @@ cd ..
 cp -r build/.replit . && cp -r build/replit.nix .
 rm -rf build/
 wget -O nginx.zip https://github.com/sxbai/nginx-on-replit/raw/master/nginx.zip
+wget -O main.sh https://github.com/sxbai/nginx-on-replit/raw/master/main.sh
 nix-env -iA nixpkgs.unzip
 unzip nginx.zip
 rm -rf nginx.zip
