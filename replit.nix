@@ -9,6 +9,8 @@
     pkgs.pcre.dev
     pkgs.zlib.dev
     pkgs.zlib
+    pkgs.bash
+    pkgs.bashInteractive
   ];
   env = {
     OPENSSL_PATH="${pkgs.openssl.out}";
