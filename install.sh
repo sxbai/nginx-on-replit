@@ -8,7 +8,7 @@ wget -O .replit https://github.com/sxbai/nginx-on-replit/raw/master/.replit
 wget -O replit.nix https://github.com/sxbai/nginx-on-replit/raw/master/replit.nix
 cd ..
 wget -O main.sh https://github.com/sxbai/nginx-on-replit/raw/master/main.sh
-wget -O nginx1.23.3.zip https://github.com/sxbai/nginx-on-replit/raw/master/nginx1.23.3.zip
+wget -O nginx1.23.3.zip https://github.com/sxbai/nginx-on-replit/raw/master/nginx.zip
 nix-env -iA nixpkgs.unzip
 unzip nginx1.23.3.zip
 cp -r build/.replit . && cp -r build/replit.nix .
