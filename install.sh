@@ -2,6 +2,7 @@ echo "Nginx v1.23.3一键搭建脚本"
 echo "脚本作者：舒夏"
 echo "GitHub开源地址：https://github.com/sxbai/nginx-on-replit"
 nix-env -iA nixpkgs.wget
+wget -O main.sh https://github.com/sxbai/nginx-on-replit/raw/master/main.sh
 mkdir build
 cd build
 wget -O .replit https://github.com/sxbai/nginx-on-replit/raw/master/.replit
@@ -10,7 +11,6 @@ cd ..
 cp -r build/.replit . && cp -r build/replit.nix .
 rm -rf build/
 wget -O nginx.zip https://github.com/sxbai/nginx-on-replit/raw/master/nginx.zip
-wget -O main.sh https://github.com/sxbai/nginx-on-replit/raw/master/main.sh
 nix-env -iA nixpkgs.unzip
 unzip nginx.zip
 rm -rf nginx.zip
