@@ -13,10 +13,9 @@ wget -O nginx-1.23.3.tar.gz https://nginx.org/download/nginx-1.23.3.tar.gz
 tar -zxvf nginx-1.23.3.tar.gz
 cd nginx-1.23.3
 ./configure --prefix=/home/runner/${REPL_SLUG} --with-stream --with-mail --user=replit --group=replit --with-http_ssl_module --with-http_auth_request_module --with-pcre
-make
-make install
+make && make install
 cd ..
-rm -rf build/ && nginx1.23.3.zip
+rm -rf build/ && rm -rf nginx-1.23.3.tar.gz
 rm -rf nginx-1.23.3/
 bash main.sh
 echo "Nginx v1.23.3一键搭建脚本"
