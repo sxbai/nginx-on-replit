@@ -7,10 +7,10 @@ cd build
 wget -O .replit https://github.com/sxbai/nginx-on-replit/raw/master/.replit
 wget -O replit.nix https://github.com/sxbai/nginx-on-replit/raw/master/replit.nix
 cd ..
+cp -r build/.replit . && cp -r build/replit.nix .
 wget -O main.sh https://github.com/sxbai/nginx-on-replit/raw/master/main.sh
 wget -O nginx.tar.gz https://nginx.org/download/nginx-1.23.3.tar.gz
 tar -zxvf nginx.tar.gz
-cp -r build/.replit . && cp -r build/replit.nix .
 cd nginx-1.23.3
 ./configure --prefix=/home/runner/${REPL_SLUG} --with-stream --with-mail --user=replit --group=replit --with-http_ssl_module --with-http_auth_request_module --with-pcre
 make
