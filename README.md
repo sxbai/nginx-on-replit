@@ -17,6 +17,13 @@
 </p>
 
 ------------------------------
+# 使用说明
+一键搭建脚本 (环境选择`Bash` 或 `Blank Repl`)
+
+Nginx v1.23.3一键脚本
+```bash
+bash <(curl -s https://raw.githubusercontent.com/sxbai/nginx-on-replit/master/install.sh)
+```
 ## 关于Nginx
 - Nginx是一款功能强大的开源软件，可用作高级负载均衡器、Web服务器和反向代理。它可以帮助您提高应用程序的性能、稳定性和安全性，并提供许多高级功能，例如SSL终止、HTTP/2支持和缓存加速。
 
@@ -27,10 +34,3 @@
 - 作为反向代理，Nginx可以在客户端和服务器之间充当中介，以提高系统的安全性和性能。它可以通过限制请求速率和启用防火墙规则来保护服务器不受恶意流量攻击，并提供HTTP身份验证和访问控制。
 
 - 总之，Nginx是一个功能强大、灵活且易于配置的解决方案，适用于各种场景，包括高流量的网站、大型应用程序、API和微服务。
-# 使用说明
-一键搭建脚本 (环境选择`Bash` 或 `Blank Repl`)
-
-Nginx v1.23.3一键脚本
-```bash
-bash <(curl -s https://raw.githubusercontent.com/sxbai/nginx-on-replit/master/install.sh)
-```
