@@ -15,8 +15,6 @@
 <a href="https://www.nginx.com/blog/">社区</a>
 <a href="https://t.me/sxbai">Telegram 频道</a>
 </p>
-
-<br>
 ------------------------------
 <p align="NGINX是一款功能强大的开源软件，可用作高级负载均衡器、Web服务器和反向代理。它可以帮助您提高应用程序的性能、稳定性和安全性，并提供许多高级功能，例如SSL终止、HTTP/2支持和缓存加速。</p>
 
