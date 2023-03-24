@@ -4,7 +4,7 @@
     </a>
 </p>
 
-<p align="center"><b>Nginx</b>[ˈheɪloʊ]部署于Replit，高级负载均衡器、Web服务器和反向代理 。</p>
+<p align="center"><b>Nginx</b>部署于Replit，高级负载均衡器、Web服务器和反向代理 。</p>
 
 <p align="center">
 <a href="https://github.com/sxbai/nginx-on-replit/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/sxbai/nginx-on-replit.svg?style=flat-square&include_prereleases" /></a>
@@ -16,7 +16,7 @@
 <a href="https://t.me/sxbai">Telegram 频道</a>
 </p>
 
-<br />
+<br>
 ------------------------------
 <p align="NGINX是一款功能强大的开源软件，可用作高级负载均衡器、Web服务器和反向代理。它可以帮助您提高应用程序的性能、稳定性和安全性，并提供许多高级功能，例如SSL终止、HTTP/2支持和缓存加速。</p>
 
