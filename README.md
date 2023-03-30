@@ -34,3 +34,6 @@ bash <(curl -s https://raw.githubusercontent.com/sxbai/nginx-on-replit/master/in
 - 作为反向代理，Nginx可以在客户端和服务器之间充当中介，以提高系统的安全性和性能。它可以通过限制请求速率和启用防火墙规则来保护服务器不受恶意流量攻击，并提供HTTP身份验证和访问控制。
 
 - 总之，Nginx是一个功能强大、灵活且易于配置的解决方案，适用于各种场景，包括高流量的网站、大型应用程序、API和微服务。
+## 鸣谢
+- [Replit](https://github.com/replit)
+- [霜辉月明](https://github.com/lm317379829)
